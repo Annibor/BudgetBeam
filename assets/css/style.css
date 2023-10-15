@@ -63,4 +63,17 @@ header {
   gap: 3rem;
 }
 
+.how-to-section {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 9.6rem;
+  background-color: #c6ac8f;
+  padding: 2.4rem;
+}
+
+.main-content-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 
