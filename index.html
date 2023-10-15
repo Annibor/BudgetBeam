@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
+    <!--HEADER-->
     <header>
       <h1>BudgetBeam</h1>
       <nav class="nav-main">
@@ -44,13 +45,37 @@
           <li class="nav-list-link" href="x">Savings</li>
           <li class="nav-list-link" href="x">Dept</li>
           <li class="nav-list-link" href="x">Goals</li>
-          
-
         </ul>
       </nav>
-
-      </nav>
     </header>
+    <!--MAIN-->
+    <main>
+      <section class="budget-section">
+        <div class="budget">
+          <h2>Budget</h2>
+          <div class="budget-plan">
+            <div class="budget-income">
+              <label for="budget-income" class="budget-income-label"
+                >Income</label
+              >
+              <input
+                type="text"
+                name="budget-income"
+                id="budget-income"
+                class="budget-income" />
+            </div>
+            <div class="budget-costs">
+              <label for="budget-costs-item1">X</label>
+              <input type="text" class="budget-costs-item1" />
+              <label for="budget-costs-item2">X</label>
+              <input type="text" class="budget-costs-item2" />
+              <label for="budget-costs-item3">X</label>
+              <input type="text" class="budget-costs-item3" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <!--SCRIPT-->
     <script src="assets/js/script.js"></script>
   </body>
