@@ -1,12 +1,10 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome,
-
 # BudgetBeam
 
 ![BudgetBeam]()
 
 # Introduction
+
+Welcome to BudgetBeam, your ultimate financial companion. This website empowers you to manage and track your budget and helping you to make informed financial decisions so you can reach your financial goals. This website is the solution for effectie budget management. By defining your income and spening categories this application will help ypu to keep a close eye on your spending. BudgetBeam is designed with simplicity and with focus on making your budget planning easy and clear.
 
 ![Am I Responsive Screenshot]()
 
