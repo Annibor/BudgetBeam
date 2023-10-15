@@ -40,6 +40,27 @@ body {
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
 */
+
+/*----------------------*/
+/* -- GENERAL STYLES -- */
+/*----------------------*/
+
+
+.secondary-heading {
+  font-size: 3rem;
+  color: #E3DAC9;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.subheading{
+  font-size: 1.6rem;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
 /*----------------*/
 /* --- Header ---*/
 /*---------------*/
@@ -70,20 +91,12 @@ header {
 
 .how-to-section {
   display: flex;
-  gap: 2.5rem;
+  gap: 3rem;
   align-items: center;
   background-color: #1d2d44;
   padding: 2.4rem;
-  margin: 2rem;
+  margin: 2.4rem;
   max-width: 100rem;
-}
-
-.secondary-heading {
-  font-size: 3rem;
-  color: #E3DAC9;
-  font-weight: 600;
-  line-height: 1.2;
-  margin-bottom: 2rem;
 }
 
 .how-to-list{
@@ -101,13 +114,11 @@ header {
 .main-content-box {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 1rem 6.8rem;
-  gap: 3rem;
   color: #E3DAC9;
-}
-
-.budget-section {
-  max-width: 40rem;
+  margin: 2.4rem;
+  max-width: 120rem;
+  column-gap: 4rem;
+  row-gap: 5rem;
 }
 
 .item-boxes {
@@ -115,5 +126,7 @@ header {
   background-color: #1d2d44;
   max-width: 30rem;
   gap: 2rem;
-  justify-content: space-between;
+  padding: 1rem 2rem;
 }
+
+
