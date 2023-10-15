@@ -14,7 +14,7 @@ html {
 body {
   font-family: "Lato", sans-serif;
   line-height: 1;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 /*01 TYPOGRAPHY SYSTEM*/
@@ -40,16 +40,17 @@ body {
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
 */
-
+/*----------------*/
+/* --- Header ---*/
+/*---------------*/
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
   height: 8rem;
   padding: 0 3.2rem;
-  position: relative;
-  background-color: #c6ac8f;
-  color: #22333b;
+  background-color: #1d2d44;
+  color: #E3DAC9;
 }
 
 .logo {
@@ -63,17 +64,56 @@ header {
   gap: 3rem;
 }
 
+/*------------------------*/
+/* --- HOW TO SECTION --- */
+/*------------------------*/
+
 .how-to-section {
   display: flex;
-  flex-direction: column;
-  margin: 2rem 9.6rem;
-  background-color: #c6ac8f;
+  gap: 2.5rem;
+  align-items: center;
+  background-color: #1d2d44;
   padding: 2.4rem;
+  margin: 2rem;
+  max-width: 100rem;
 }
+
+.secondary-heading {
+  font-size: 3rem;
+  color: #E3DAC9;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.how-to-list{
+  color: #E3DAC9;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/*------------------------*/
+/* --- MAIN CONTENT --- */
+/*------------------------*/
 
 .main-content-box {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  margin: 1rem 6.8rem;
+  gap: 3rem;
+  color: #E3DAC9;
 }
 
+.budget-section {
+  max-width: 40rem;
+}
 
+.item-boxes {
+  grid-template-columns: 1fr;
+  background-color: #1d2d44;
+  max-width: 30rem;
+  gap: 2rem;
+  justify-content: space-between;
+}
