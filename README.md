@@ -31,6 +31,7 @@ Welcome to BudgetBeam, your ultimate financial companion. This website empowers 
 
 ## Planning & developmnet
 
+
 ### Project Goals
 
 ### User-Centered Approach
