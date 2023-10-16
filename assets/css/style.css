@@ -120,7 +120,7 @@ header {
 .how-to-box {
   display: flex;
   gap: 3rem;
-  align-items: center;
+  justify-content: space-around;
   background: linear-gradient(to right bottom, #1d2d44, #00416A);
   padding: 2.4rem;
   margin: 2.4rem;
@@ -141,12 +141,16 @@ header {
 /* --- BALANCE --- */
 /*-----------------*/
 
-.budget-balance-section {
+.budget-balance-section{
+  padding: 4rem;
+}
+
+.budget-balance {
   background: linear-gradient(to right bottom, #432818, #6B2900);
   color: #e3dac9;
   padding: 3.4rem 4.6rem;
+  margin: 0 auto;
   max-width: 90rem;
-  margin: 6.4rem;
   border-radius: 9px;
   box-shadow: 0 2rem 3rem 0.7rem rgba(0, 0, 0, 0.2);
   
@@ -155,3 +159,17 @@ header {
 .balance-box {
   grid-column: span 2;
 }
+
+.budget-and-actual-section{
+
+}
+
+.budget-box, .actual-box{
+  background: linear-gradient(to right bottom, #432818, #6B2900);
+  color: #e3dac9;
+  padding: 3.4rem 4.6rem;
+  max-width: 90rem;
+  border-radius: 9px;
+  box-shadow: 0 2rem 3rem 0.7rem rgba(0, 0, 0, 0.2);
+}
+
