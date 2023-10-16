@@ -182,14 +182,11 @@ header {
   box-shadow: 0 2rem 3rem 0.7rem rgba(0, 0, 0, 0.2);
 }
 
-.bidget-incomes{
-  
-}
-
-.b-income{
+.b-income, .b-cost, .a-income, .a-cost{
   list-style: none;
 }
 
-.add-income{
-  padding: 2rem;
+.add-income, .add-cost{
+  padding: 0.5rem;
+  display: flex;
 }
