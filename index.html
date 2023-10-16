@@ -71,6 +71,7 @@
           </ol>
         </div>
       </section>
+      <!--SUMMARY OF BUDGET AND ACTUAL COSTS-->
       <section class="budget-balance-section">
         <div class="budget-balance grid">
           <div class="balance-box">
@@ -87,8 +88,46 @@
           </div>
         </div>
       </section>
+      <!--BUDGET LIST AND ACTUAL COSTS AND INCOME LIST-->
       <section class="budget-and-actual-section grid">
+        <!--BUDGET LIST-->
         <div class="budget-box grid">
+          <div class="income-or-cost">
+            <div class="list1 active">Income</div>
+            <div class="list2">Costs</div>
+          </div>
+          <!-- COST LIST BUDGET COSTS-->
+          <div class="budget-costs hide">
+            <ul class="budget-list">
+              <li id="0" class="b-income">
+                <div class="added sub-title">Work salary: 20 000SEK</div>
+                <div class="edit-btn btn">
+                  <i class="fa-thin fa-pen-to-square"></i>
+                </div>
+                <div class="delete-btn btn">
+                  <i class="fa-thin fa-trash"></i>
+                </div>
+              </li>
+            </ul>
+            <div class="add-income">
+              <input
+                type="text"
+                id="budget-income-add"
+                name="budget-income-add"
+                class="input-styles"
+                placeholder="Type of" />
+              <input
+                type="number"
+                id="budget-income-amount"
+                name="budget-income-amount"
+                class="input-styles"
+                placeholder="Money" />
+              <div class="add-income-btn btn">
+                <i class="fa-thin fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- BUDGET INCOMES LIST-->
           <div class="budget-incomes">
             <ul class="budget-list">
               <li id="0" class="b-income">
@@ -120,7 +159,44 @@
             </div>
           </div>
         </div>
+        <!--ACTUAL COSTS AND INCOME LIST-->
         <div class="actual-box grid">
+          <div class="income-or-cost">
+            <div class="list1 active">Income</div>
+            <div class="list2">Costs</div>
+          </div>
+          <!-- COST LIST ACTUAL COSTS-->
+          <div class="actual-costs hide">
+            <ul class="actual-list">
+              <li id="0" class="a-income">
+                <div class="added sub-title">Work salary: 20 000SEK</div>
+                <div class="edit-btn btn">
+                  <i class="fa-thin fa-pen-to-square"></i>
+                </div>
+                <div class="delete-btn btn">
+                  <i class="fa-thin fa-trash"></i>
+                </div>
+              </li>
+            </ul>
+            <div class="add-income">
+              <input
+                type="text"
+                id="actual-income-add"
+                name="actual-income-add"
+                class="input-styles"
+                placeholder="Type of" />
+              <input
+                type="number"
+                id="actual-income-amount"
+                name="actual-income-amount"
+                class="input-styles"
+                placeholder="Money" />
+              <div class="add-income-btn btn">
+                <i class="fa-thin fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- ACTUAL INCOMES LIST-->
           <div class="actual-incomes">
             <ul class="actual-list">
               <li id="0" class="a-income">
