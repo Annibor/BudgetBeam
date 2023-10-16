@@ -61,12 +61,18 @@ body {
   text-transform: uppercase;
 }
 
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
 /*----------------*/
 /* --- Header ---*/
 /*---------------*/
 header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   position: relative;
   height: 8rem;
@@ -119,18 +125,3 @@ header {
 /* --- MAIN CONTENT --- */
 /*------------------------*/
 
-.main-content-box {
-  padding: 3rem;
-  display: grid;
-  margin: 0 auto;
-  grid-template-columns: repeat(2, 1fr);
-  max-width: 100rem;
-  gap: 2rem;
-  padding: 1rem 2rem;
-}
-
-.item-boxes{
-background-color: #1d2d44;
-padding: 3rem;
-color: #e3dac9;
-}
