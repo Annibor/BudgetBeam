@@ -16,7 +16,7 @@ body {
   font-family: "Lato", sans-serif;
   line-height: 1;
   font-weight: 300;
- background-color: #DAA06D;
+  background-color: #daa06d;
 }
 
 /*01 TYPOGRAPHY SYSTEM*/
@@ -47,8 +47,6 @@ body {
 /* -- GENERAL STYLES -- */
 /*----------------------*/
 
-
-
 .secondary-heading {
   font-size: 2rem;
   color: #fbf6f0;
@@ -64,7 +62,7 @@ body {
   text-transform: uppercase;
 }
 
-.sub-title{
+.sub-title {
   font-size: 1.4rem;
   line-height: 1.6;
   letter-spacing: 1.2px;
@@ -77,15 +75,13 @@ body {
   gap: 3rem;
 }
 
-.input-styles{
+.input-styles {
   padding: 1rem;
   border-radius: 8px;
   border: none;
   background-color: transparent;
-  box-shadow:inset 0rem 0.1rem 0.3rem 0.3rem rgba(0, 0, 0, 0.5);
-  shad
+  box-shadow: inset 0rem 0.1rem 0.3rem 0.3rem rgba(0, 0, 0, 0.5);
 }
-
 
 /*----------------*/
 /* --- Header ---*/
@@ -97,7 +93,7 @@ header {
   position: relative;
   height: 8rem;
   padding: 2rem 3.2rem;
-  background: linear-gradient(to right bottom, #1d2d44, #00416A);
+  background: linear-gradient(to right bottom, #1d2d44, #00416a);
   color: #e3dac9;
   width: 100%;
   box-shadow: 0rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
@@ -130,7 +126,7 @@ header {
   display: flex;
   gap: 3rem;
   justify-content: space-around;
-  background: linear-gradient(to right bottom, #1d2d44, #00416A);
+  background: linear-gradient(to right bottom, #1d2d44, #00416a);
   padding: 2.4rem;
   margin: 2.4rem;
   max-width: 120rem;
@@ -150,31 +146,27 @@ header {
 /* --- BALANCE --- */
 /*-----------------*/
 
-.budget-balance-section{
+.budget-balance-section {
   padding: 4rem;
 }
 
 .budget-balance {
-  background: linear-gradient(to right bottom, #432818, #6B2900);
+  background: linear-gradient(to right bottom, #432818, #6b2900);
   color: #e3dac9;
   padding: 3.4rem 4.6rem;
   margin: 0 auto;
   max-width: 90rem;
   border-radius: 9px;
   box-shadow: 0 2rem 3rem 0.7rem rgba(0, 0, 0, 0.2);
-  
 }
 
 .balance-box {
   grid-column: span 2;
 }
 
-.budget-and-actual-section{
-
-}
-
-.budget-box, .actual-box{
-  background: linear-gradient(to right bottom, #432818, #6B2900);
+.budget-box,
+.actual-box {
+  background: linear-gradient(to right bottom, #432818, #6b2900);
   color: #e3dac9;
   padding: 3.4rem 4.6rem;
   max-width: 90rem;
@@ -182,11 +174,22 @@ header {
   box-shadow: 0 2rem 3rem 0.7rem rgba(0, 0, 0, 0.2);
 }
 
-.b-income, .b-cost, .a-income, .a-cost{
+.b-income,
+.b-cost,
+.a-income,
+.a-cost {
   list-style: none;
+  display: flex;
+  flex-direction: row;
 }
 
-.add-income, .add-cost{
+.add-income,
+.add-cost {
   padding: 0.5rem;
   display: flex;
+}
+
+.btn{
+  display: flex;
+  font-size: 4rem;
 }
