@@ -16,6 +16,7 @@ body {
   font-family: "Lato", sans-serif;
   line-height: 1;
   font-weight: 300;
+ background-color: #DAA06D;
 }
 
 /*01 TYPOGRAPHY SYSTEM*/
@@ -46,9 +47,11 @@ body {
 /* -- GENERAL STYLES -- */
 /*----------------------*/
 
+
+
 .secondary-heading {
   font-size: 2rem;
-  color: #e3dac9;
+  color: #fbf6f0;
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: 2rem;
@@ -85,7 +88,7 @@ header {
   position: relative;
   height: 8rem;
   padding: 2rem 3.2rem;
-  background-color: #1d2d44;
+  background: linear-gradient(to right bottom, #1d2d44, #00416A);
   color: #e3dac9;
   width: 100%;
   box-shadow: 0rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
@@ -118,17 +121,19 @@ header {
   display: flex;
   gap: 3rem;
   align-items: center;
-  background-color: #1d2d44;
+  background: linear-gradient(to right bottom, #1d2d44, #00416A);
   padding: 2.4rem;
   margin: 2.4rem;
-  max-width: 90rem;
+  max-width: 120rem;
+  border-radius: 9px;
+  box-shadow: 0 2rem 3rem 0.7rem rgba(0, 0, 0, 0.2);
 }
 
 .how-to-list {
   color: #e3dac9;
-  font-size: 1rem;
-  line-height: 1.6;
-  letter-spacing: 1px;
+  font-size: 1.2rem;
+  line-height: 2;
+  letter-spacing: 1.6px;
   text-transform: uppercase;
 }
 
@@ -137,8 +142,14 @@ header {
 /*-----------------*/
 
 .budget-balance-section {
-  background-color: #5c3519;
+  background: linear-gradient(to right bottom, #432818, #6B2900);
   color: #e3dac9;
+  padding: 3.4rem 4.6rem;
+  max-width: 90rem;
+  margin: 6.4rem;
+  border-radius: 9px;
+  box-shadow: 0 2rem 3rem 0.7rem rgba(0, 0, 0, 0.2);
+  
 }
 
 .balance-box {
