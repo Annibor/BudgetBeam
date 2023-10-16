@@ -77,6 +77,15 @@ body {
   gap: 3rem;
 }
 
+.input-styles{
+  padding: 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: transparent;
+  box-shadow:inset 0rem 0.1rem 0.3rem 0.3rem rgba(0, 0, 0, 0.5);
+  shad
+}
+
 
 /*----------------*/
 /* --- Header ---*/
@@ -173,3 +182,14 @@ header {
   box-shadow: 0 2rem 3rem 0.7rem rgba(0, 0, 0, 0.2);
 }
 
+.bidget-incomes{
+  
+}
+
+.b-income{
+  list-style: none;
+}
+
+.add-income{
+  padding: 2rem;
+}
