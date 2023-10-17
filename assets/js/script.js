@@ -56,5 +56,38 @@ const actualIncomeAmount = document.getElementById("#actual-income-amount");
 const addActualIncomeBtn = document.querySelector(".add-actual-income-btn");
 
 /*---------------------------*/
-/* --- BTNS FOR  MAKE ACTIVE --- */
+/* --- SHOW AND HIDE LISTS AND ACTIVE BTNS --- */
 /*---------------------------*/
+
+budgetIncomeBtn.addEventListener('click', function() {
+  
+}
+
+
+
+/*
+let buttons = document.querySelectorAll(".income-or-cost-budget");
+
+for (let div of buttons) {
+  div.addEventListener('click', (e) => {
+    const et = e.target;
+
+    const active = document.querySelector(".active");
+
+    if(active) {
+      active.classList.remove("active");
+    }
+
+    et.classList.add("active");
+
+    let budgetList = document.querySelectorAll(".b-list");
+
+    for (let content of budgetList) {
+      if(content.getAttribute('data-numbet') === div.getAttribute('data-number')) {
+        content.style.display = "block";
+    } else {
+      content.style.display = "none";
+    }
+  });
+}   */
+
