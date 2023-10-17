@@ -189,7 +189,7 @@ header {
   flex-direction: column;
   gap: 1rem;
 }
-.income-or-cost {
+.income-or-cost, .income-or-cost-budget {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -204,6 +204,7 @@ header {
   text-transform: uppercase;
   align-content: center;
   border-radius: 3px;
+  color: rgba(227, 218, 201, 0.7);
   box-shadow: 0rem 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.2);
 }
 

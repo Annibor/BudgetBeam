@@ -56,7 +56,7 @@ const actualIncomeAmount = document.getElementById("#actual-income-amount");
 const addActualIncomeBtn = document.querySelector(".add-actual-income-btn");
 
 /*---------------------------*/
-/* --- SHOW AND HIDE LISTS AND ACTIVE BTNS --- */
+/* --- SHOW AND HIDE LISTS AND ACTIVE BTNS BUDGT --- */
 /*---------------------------*/
 
 /*--- Based on CodePen, Mohd Hussein, link in README.md---*/
@@ -78,7 +78,7 @@ for (let div of buttons) {
 
     for (let content of budgetList) {
       if (
-        content.getAttribute("data-numbet") === div.getAttribute("data-number")
+        content.getAttribute("data-number") === div.getAttribute("data-number")
       ) {
         content.style.display = "block";
       } else {
