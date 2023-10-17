@@ -12,3 +12,31 @@ let budgetIncomeEl = document.querySelector("budget-incomes");
 
 let budgetCostList = document.querySelector("#budget-costs .budget-list");
 let budgetCostsList = document.querySelector("#budget-icomes .budget-list");
+
+/*-------------------------*/
+/* --- BUDGET COST ADD --- */
+/*-------------------------*/
+let budgetCostInput = document.getElementById("#budget-cost-add");
+let budgetCostAmount = document.getElementById("#budget-cost-amount");
+let addBudgetCostBtn = document.querySelector(".add-cost-btn");
+
+/*---------------------------*/
+/* --- BUDGET INCOME ADD --- */
+/*---------------------------*/
+let budgetIncomeInput = document.getElementById("#budget-income-add");
+let budgetIncomeAmount = document.getElementById("#budget-income-amount");
+let addBudgetIncomeBtn = document.querySelector(".add-income-btn");
+
+/*-------------------------*/
+/* --- ACTUAL COST ADD --- */
+/*-------------------------*/
+let actualCostInput = document.getElementById("#actual-cost-add");
+let actualCostAmount = document.getElementById("#actual-cost-amount");
+let addActualCostBtn = document.querySelector(".add-actual-cost-btn");
+
+/*---------------------------*/
+/* --- ACTUAL INCOME ADD --- */
+/*---------------------------*/
+let actualIncomeInput = document.getElementById("#budget-income-add");
+let actualIncomeAmount = document.getElementById("#budget-income-amount");
+let addActualIncomeBtn = document.querySelector(".add-actual-income-btn");

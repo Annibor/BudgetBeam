@@ -183,8 +183,8 @@ header {
   flex-direction: row;
 }
 
-.add-income,
-.add-cost {
+.add-budget-el,
+.add-actual-btn {
   padding: 0.5rem;
   display: flex;
 }

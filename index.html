@@ -109,17 +109,17 @@
                 </div>
               </li>
             </ul>
-            <div class="add-income">
+            <div class="add-budget-el">
               <input
                 type="text"
-                id="budget-income-add"
-                name="budget-income-add"
+                id="budget-cost-add"
+                name="budget-cost-add"
                 class="input-styles"
                 placeholder="Type of" />
               <input
                 type="number"
-                id="budget-income-amount"
-                name="budget-income-amount"
+                id="budget-cost-amount"
+                name="budget-cost-amount"
                 class="input-styles"
                 placeholder="Money" />
               <div class="add-income-btn btn">
@@ -162,13 +162,13 @@
         <!--ACTUAL COSTS AND INCOME LIST-->
         <div class="actual-box grid">
           <div class="income-or-cost">
-            <div class="list1 active">Income</div>
-            <div class="list2">Costs</div>
+            <div id="income-list1" class="list1 active">Income</div>
+            <div id="income-list2" class="list2">Costs</div>
           </div>
           <!-- COST LIST ACTUAL COSTS-->
           <div id="actual-costs" class="hide">
             <ul class="actual-list">
-              <li id="0" class="a-income">
+              <li id="0" class="a-cost">
                 <div class="added sub-title">Work salary: 20 000SEK</div>
                 <div class="edit-btn btn">
                   <i class="fa-thin fa-pen-to-square"></i>
@@ -178,20 +178,20 @@
                 </div>
               </li>
             </ul>
-            <div class="add-income">
+            <div class="add-cost">
               <input
                 type="text"
-                id="actual-income-add"
-                name="actual-income-add"
+                id="actual-cost-add"
+                name="actual-cost-add"
                 class="input-styles"
                 placeholder="Type of" />
               <input
                 type="number"
-                id="actual-income-amount"
-                name="actual-income-amount"
+                id="actual-cost-amount"
+                name="actual-cost-amount"
                 class="input-styles"
                 placeholder="Money" />
-              <div class="add-income-btn btn">
+              <div class="add-actual-cost-btn btn">
                 <i class="fa-thin fa-plus"></i>
               </div>
             </div>
@@ -209,7 +209,7 @@
                 </div>
               </li>
             </ul>
-            <div class="add-income">
+            <div class="add-actual-btn">
               <input
                 type="text"
                 id="actual-income-add"
@@ -222,7 +222,7 @@
                 name="actual-income-amount"
                 class="input-styles"
                 placeholder="Money" />
-              <div class="add-income-btn btn">
+              <div class="add-actual-income-btn btn">
                 <i class="fa-thin fa-plus"></i>
               </div>
             </div>
