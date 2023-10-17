@@ -87,3 +87,26 @@ for (let div of buttons) {
     }
   });
 }
+
+/*------------------------------------*/
+/* --- ADD COSTS TO BUDGET LIST --- */
+/*------------------------------------*/
+
+addBudgetIncomeBtn.addEventListener("clisk", function () {
+  if (!budgetCostInput.value || !budgetCostAmount.value) return;
+  let income = {
+    type: "income",
+    title: budgetCostInput.value,
+    amount: parseFloat(budgetCostAmount.value),
+  };
+
+  let entryList = [];
+
+  entryList.push(income);
+  updateUI();
+  clearInput([budgetCostInput, budgetCostAmount]);
+});
+
+/*------------------------------------*/
+/* --- ADD INCOMES TO BUDGET LIST --- */
+/*------------------------------------*/
