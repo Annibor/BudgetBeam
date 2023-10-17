@@ -59,22 +59,16 @@ const addActualIncomeBtn = document.querySelector(".add-actual-income-btn");
 /* --- SHOW AND HIDE LISTS AND ACTIVE BTNS --- */
 /*---------------------------*/
 
-budgetIncomeBtn.addEventListener('click', function() {
-  
-}
-
-
-
-/*
+/*--- Based on CodePen, Mohd Hussein, link in README.md---*/
 let buttons = document.querySelectorAll(".income-or-cost-budget");
 
 for (let div of buttons) {
-  div.addEventListener('click', (e) => {
+  div.addEventListener("click", (e) => {
     const et = e.target;
 
     const active = document.querySelector(".active");
 
-    if(active) {
+    if (active) {
       active.classList.remove("active");
     }
 
@@ -83,11 +77,13 @@ for (let div of buttons) {
     let budgetList = document.querySelectorAll(".b-list");
 
     for (let content of budgetList) {
-      if(content.getAttribute('data-numbet') === div.getAttribute('data-number')) {
+      if (
+        content.getAttribute("data-numbet") === div.getAttribute("data-number")
+      ) {
         content.style.display = "block";
-    } else {
-      content.style.display = "none";
+      } else {
+        content.style.display = "none";
+      }
     }
   });
-}   */
-
+}

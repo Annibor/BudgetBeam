@@ -180,6 +180,8 @@ My link is: [BudgetBeam](
 
 - This README is based on a README created by Davis Calikes, available at [GitHub](https://github.com/davidcalikes/portfolio-project-one#readme), and the README by me, available at [GitHub](https://github.com/Annibor/EarthEcho-Studios/blob/main/README.md)
 
+- The toggle for the lists are based on [CodePen](https://codepen.io/MohdHussein/pen/MWKEvdp).
+
 ### Special Thanks
 
 - **Michel**: My boyfriend
